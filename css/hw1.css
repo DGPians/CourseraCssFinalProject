@@ -1,0 +1,137 @@
+body{
+    margin: 10px 15px;
+}
+header{
+    background:#ffffff url('../images/flywheel.jpg') no-repeat;
+    background-size: 100% auto;
+    padding: 5px 0px 20px;
+} 
+h1{
+    color: #faf2fd;
+    font-size: 200%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif,Arial;
+    padding: 10px;
+    font-weight: bolder;
+}
+main{
+    background: linear-gradient(rgb(186, 179, 252),#ffffff);
+    font-size: 105%;
+}
+h2{
+    font-size: 150%;
+    
+}
+nav{
+    text-align: center;
+}
+nav a{
+    display: inline-block;
+    width: 15%;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 5px 3%;
+    font-size: 100%;
+    background-image:linear-gradient(rgb(209, 193, 253),#ffffff);
+    font-size: 95%;
+    font-style: bold;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+    border: outset #ffffff;
+    border-radius: 10px;
+    opacity: .65;
+    transition-property: background-image,color,width;
+    transition-duration: .5s;
+    transition-timing-function: linear;
+    transition-delay: .1s;
+}
+nav a:hover{
+    background:linear-gradient(#3d3d3d,#cfcece) ;
+    color: #ffffff;
+    width: 20%;
+}
+a:hover{
+    color: #ffffff;
+}
+a:focus{
+    background: #757575;
+    color: #ffffff;
+}
+a:active{
+    border:solid #000000;
+}
+.active{
+    border: inset;
+    background: linear-gradient(#000000,#ffffff);
+    color: #ffffff;
+}
+.left{
+    float: left;
+    width: 20%;
+    background: linear-gradient(rgb(146, 30, 255),rgb(255, 145, 0));
+}
+aside img{
+    display: block;
+    width: 90%;
+    border: solid #ffffff;
+    align-items: center;
+    margin: 10px auto;
+    transition-property: width;
+    transition-duration: .5s;
+    transition-delay: 1s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+aside img:hover{
+    width: 150%;
+    
+}
+.right{
+    width: 75%;
+    padding: 10px 2%;
+    display: inline-block;
+    text-align: justify;
+}
+table{
+    width: 75%;
+    margin: 5px auto;
+    border-spacing: 2px;
+}
+th,td{
+    height: 30px;
+    line-height: 30px;
+    background: linear-gradient(rgb(182, 137, 253) 85%,rgb(251, 244, 255));
+    padding: 2px;
+    margin: 0px;
+}
+
+th{
+    /*Override the properties of heading*/
+    background: linear-gradient(rgb(95, 1, 247),rgb(210, 147, 248));
+    border-radius: 10px 10px 0px 0px;
+    border-width: 1px 1px 2px;
+    border-style: solid;
+    border-color:rgb(80, 2, 206);
+    color: #ffffff;
+}
+td,th{
+    width: 20%;
+    text-align: center;
+    /*text is aligned center for all td*/
+}
+td:first-child,th:first-child{
+    width: 60%;
+    text-align: left;
+    /*first column's text are aligned to left*/
+    padding-left: 10px;
+}
+tr{
+    opacity: .8;
+}
+tr:first-child{
+    opacity: 1;
+}
+tr:hover{
+    opacity: 1;
+}
